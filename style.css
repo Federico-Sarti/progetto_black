@@ -1,0 +1,77 @@
+/* settings */
+:root {
+    --secondary : #2B9DF4;
+    --acc: #fff;
+    --black: #000000;
+}
+p , ul , li , span {
+    font-family: 'Jura', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family: 'Orbitron', sans-serif;
+   
+}
+.txt-acc {
+    color: var(--acc);
+}
+.txt-secondary {
+    color: var(--secondary);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.fs-48 {
+    font-size: 3.5rem;
+}
+.fs-16 {
+    font-size: 1rem;
+}
+/* fine settings */
+.navMenu {
+    list-style-type: none;
+}
+
+.borderNav {
+    border-bottom: 1px solid var(--acc);
+}
+
+.navGap {
+    gap:2rem;
+}
+.bg-header {
+    background: url(./media/moon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-header::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%);
+}
+.headings {
+    z-index: 1;
+}
+
+.chevron-down {
+    color: var(--secondary);
+    font-size: 2rem;
+}
+
+.borderSection {
+    border-bottom: solid 1px var(--secondary);
+}
+.bg-section {
+    background-image: url(./media/moon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.sectionCol {
+    height: 800px;
+}
